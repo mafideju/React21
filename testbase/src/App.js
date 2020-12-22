@@ -1,9 +1,9 @@
 import React from "react";
 
-import CommentBox from './Components/CommentBox/CommentBox';
-import CommentList from './Components/CommentList/CommentList';
+import CommentBox from 'Components/CommentBox/CommentBox';
+import CommentList from 'Components/CommentList/CommentList';
 
-import "./App.css";
+import "App.css";
 
 function App() {
   return (

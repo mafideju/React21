@@ -1,9 +1,23 @@
 import React from 'react';
-import { render } from '@testing-library/react';
 import CommentBox from './CommentBox.jsx';
+import { mount, unmount, shallow } from 'enzyme';
 
-xtest('renders Comment Box', () => {
-  const linkElement = render(<CommentBox />).getByText(/Comment Box/i);
+describe("COMMENT BOX AREA", () => {
+  let wrapper;
+  
+  beforeEach(() => {
+    wrapper = shallow(<CommentBox />);
+  });
+  
+  it('renders textarea', () => {
+    expect(wrapper.find("textarea").length).toEqual(1);
+  });
 
-  expect(linkElement).toBeInTheDocument();
+  it('renders button', () => {
+    expect(wrapper.find("button").length).toEqual(1);
+  });
+
+  afterEach(() => {
+    wrapper.unmount();
+  });
 });
