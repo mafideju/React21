@@ -1,0 +1,24 @@
+2020-12-20T00:44:55.091Z - info:   [1054658] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/testbase ***
+2020-12-20T00:44:55.093Z - info:   [1054658] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2020-12-20T00:44:55.101Z - warn:   [1054658] TFVC Couldn't find where the TF command lives on disk.
+2020-12-20T00:44:55.102Z - error:  [1054658] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2020-12-20T00:44:55.568Z - info:   [1054658] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/testbase ***
+2020-12-20T00:44:55.569Z - info:   [1054658] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2020-12-20T00:44:55.569Z - warn:   [1054658] TFVC Couldn't find where the TF command lives on disk.
+2020-12-20T00:44:55.570Z - error:  [1054658] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2020-12-20T22:24:07.717Z - info:   [1164176] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/testbase ***
+2020-12-20T22:24:07.718Z - info:   [1164176] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2020-12-20T22:24:07.858Z - warn:   [1164176] TFVC Couldn't find where the TF command lives on disk.
+2020-12-20T22:24:07.859Z - error:  [1164176] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2020-12-23T19:51:19.115Z - info:   [1511133] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/testbase ***
+2020-12-23T19:51:19.116Z - info:   [1511133] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2020-12-23T19:51:19.129Z - warn:   [1511133] TFVC Couldn't find where the TF command lives on disk.
+2020-12-23T19:51:19.129Z - error:  [1511133] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2020-12-27T06:09:30.004Z - info:   [230474] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/testbase ***
+2020-12-27T06:09:30.005Z - info:   [230474] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2020-12-27T06:09:30.019Z - warn:   [230474] TFVC Couldn't find where the TF command lives on disk.
+2020-12-27T06:09:30.020Z - error:  [230474] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2020-12-27T18:37:09.525Z - info:   [230474] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/testbase ***
+2020-12-27T18:37:09.527Z - info:   [230474] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2020-12-27T18:37:09.552Z - warn:   [230474] TFVC Couldn't find where the TF command lives on disk.
+2020-12-27T18:37:09.553Z - error:  [230474] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.

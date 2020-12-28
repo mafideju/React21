@@ -1,0 +1,4 @@
+2020-12-28T00:01:27.238Z - info:   [360053] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/mars-testing ***
+2020-12-28T00:01:27.239Z - info:   [360053] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2020-12-28T00:01:27.243Z - warn:   [360053] TFVC Couldn't find where the TF command lives on disk.
+2020-12-28T00:01:27.244Z - error:  [360053] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
