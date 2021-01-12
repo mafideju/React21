@@ -13,10 +13,20 @@
     "webpack",
     "boilerplate"
   ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "author": "Marcio Mafideju Rodrigues",
   "license": "MIT",
   "dependencies": {
     "jest": "^26.6.3",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.1.0",
     "svg-inline-loader": "^0.8.2"
   },
   "devDependencies": {

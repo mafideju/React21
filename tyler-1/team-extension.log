@@ -2,3 +2,7 @@
 2021-01-08T20:27:08.373Z - info:   [907627] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
 2021-01-08T20:27:08.379Z - warn:   [907627] TFVC Couldn't find where the TF command lives on disk.
 2021-01-08T20:27:08.379Z - error:  [907627] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2021-01-11T20:27:34.012Z - info:   [907627] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/tyler-1 ***
+2021-01-11T20:27:34.012Z - info:   [907627] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2021-01-11T20:27:34.085Z - warn:   [907627] TFVC Couldn't find where the TF command lives on disk.
+2021-01-11T20:27:34.147Z - error:  [907627] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.

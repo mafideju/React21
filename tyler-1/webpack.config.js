@@ -5,9 +5,9 @@ module.exports = {
 	entry: './app/index.js',
 	module: {
 		rules: [
-			{ test: /\.svg$/, use: 'svg-inline-loader' },
-			{ test: /\.css$/, use: ['style-loader', 'css-loader'] },
 			{ test: /\.(js)$/, use: 'babel-loader' },
+			{ test: /\.css$/, use: ['style-loader', 'css-loader'] },
+			{ test: /\.svg$/, use: 'svg-inline-loader' },
 		]
 	},
 	output: {
@@ -15,7 +15,9 @@ module.exports = {
 		filename: 'bundle.js'
 	},
 	plugins: [
-		new HtmlWebpackPlugin()
+		new HtmlWebpackPlugin({
+			template: 'app/index.html'
+		})
 	],
 	mode: process.env.NODE_ENV === 'production' ? 'production' : 'development'
 };

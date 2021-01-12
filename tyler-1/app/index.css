@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__button {
+    width: 75px;
+    padding: 3px;
+    margin: 0 2px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.repos__avatar {
+    padding: 5%;
+    margin: 0 0 5% 5%;
+    width: 90%;
+}
+
+.repos__items {
+    align-items: center;
+    border: 1px black solid;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    padding: 5% 0;
+    width: 30%;
+}
+
+.repos__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.battle {
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+}
