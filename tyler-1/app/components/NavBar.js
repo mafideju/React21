@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import LanguagesBar from './LanguagesBar'
 import ReposGrid from './ReposGrid'
 import { fetchPopularRepos } from '../service/GitApi';
+import Loading from './Loading';
 
 
 class NavBar extends Component {
@@ -60,7 +61,7 @@ class NavBar extends Component {
                     onUpdateLanguage={this.updateLanguage}
                 />
 
-                {this.isLoading() && <h2>Carregando...</h2>}
+                {this.isLoading() && <Loading text='Repositórios...' />}
                 {this.state.error && <h3>{this.state.error}</h3>}
                 {this.state.repos[this.state.selectedLanguage] && <ReposGrid repos={this.state.repos[this.state.selectedLanguage]} />}
             </>

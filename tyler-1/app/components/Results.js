@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import Card from './Card';
+import Profile from './Profile';
 import { battle } from '../service/GitApi';
-import { FaCompass, FaBriefcase, FaUsers, FaUserFriends, FaCode, FaUser } from 'react-icons/fa';
+import Loading from './Loading';
 
 class Results extends Component {
     constructor(props) {
@@ -33,7 +35,7 @@ class Results extends Component {
         const { winner, loser, error, loading } = this.state;
     
         if (loading) {
-          return <p>LOADING</p>;
+          return <Loading text="Calculando" />;
         }
     
         if (error) {
@@ -43,96 +45,39 @@ class Results extends Component {
         }
     
         return (
-          <div className='grid space-around container-sm'>
-            <div className='card bg-light'>
-              <h4 className='header-lg center-text'>
-                {winner.score === loser.score ? 'Tie' : 'Winner'}
-              </h4>
-              <img
-                className='avatar'
-                src={winner.profile.avatar_url}
-                alt={`Avatar for ${winner.profile.login}`}
-              />
-              <h4 className='center-text'>
-                Placar: {winner.score.toLocaleString()}
-              </h4>
-              <h2 className='center-text'>
-                <a className='link' href={winner.profile.html_url}>
-                  {winner.profile.login}
-                </a>
-              </h2>
-              <ul className='card-list'>
-                <li>
-                  <FaUser color='rgb(239, 115, 115)' size={22} />
-                  {winner.profile.name}
-                </li>
-                {winner.profile.location && (
-                  <li>
-                    <FaCompass color='rgb(144, 115, 255)' size={22} />
-                    {winner.profile.location}
-                  </li>
-                )}
-                {winner.profile.company && (
-                  <li>
-                    <FaBriefcase color='#795548' size={22} />
-                    {winner.profile.company}
-                  </li>
-                )}
-                <li>
-                  <FaUsers color='rgb(129, 195, 245)' size={22} />
-                  {winner.profile.followers.toLocaleString()} followers
-                </li>
-                <li>
-                  <FaUserFriends color='rgb(64, 183, 95)' size={22} />
-                  {winner.profile.following.toLocaleString()} following
-                </li>
-              </ul>
-            </div>
-            <div className='card bg-light'>
-              <h4 className='header-lg center-text'>
-                {winner.score === loser.score ? 'Tie' : 'Loser'}
-              </h4>
-              <img
-                className='avatar'
-                src={loser.profile.avatar_url}
-                alt={`Avatar for ${loser.profile.login}`}
-              />
-              <h4 className='center-text'>
-                Placar: {loser.score.toLocaleString()}
-              </h4>
-              <h2 className='center-text'>
-                <a className='link' href={loser.profile.html_url}>
-                  {loser.profile.login}
-                </a>
-              </h2>
-              <ul className='card-list'>
-                <li>
-                  <FaUser color='rgb(239, 115, 115)' size={22} />
-                  {loser.profile.name}
-                </li>
-                {loser.profile.location && (
-                  <li>
-                    <FaCompass color='rgb(144, 115, 255)' size={22} />
-                    {loser.profile.location}
-                  </li>
-                )}
-                {loser.profile.company && (
-                  <li>
-                    <FaBriefcase color='#795548' size={22} />
-                    {loser.profile.company}
-                  </li>
-                )}
-                <li>
-                  <FaUsers color='rgb(129, 195, 245)' size={22} />
-                  {loser.profile.followers.toLocaleString()} followers
-                </li>
-                <li>
-                  <FaUserFriends color='rgb(64, 183, 95)' size={22} />
-                  {loser.profile.following.toLocaleString()} following
-                </li>
-              </ul>
-            </div>
-          </div>
+			<>
+				<div className='grid space-around container-sm'>
+
+					<Card
+						header={winner.score === loser.score ? 'Empate' : 'Ganhoôoôu!!!'}
+						subheader={`Placar: ${winner.score.toLocaleString()}`}
+						avatar={winner.profile.avatar_url}
+						name={winner.profile.login}
+						href={winner.profile.html_url}
+					>
+						<Profile profile={winner.profile} />
+					</Card>
+				
+					<Card
+						header={winner.score === loser.score ? 'Empate' : 'Perdeu !!!!'}
+						subheader={`Placar: ${loser.score.toLocaleString()}`}
+						avatar={loser.profile.avatar_url}
+						name={loser.profile.login}
+						href={loser.profile.html_url}
+					>
+						<Profile profile={loser.profile} />
+					</Card>
+
+				</div>
+				<div style={{ display: 'flex', justifyContent: 'center' }}>
+					<button 
+						className='btn btn-block' 
+						onClick={this.props.onResetGame}
+					>
+						Nova Batalha
+					</button>
+				</div>
+			</>
         )
       }
 }
