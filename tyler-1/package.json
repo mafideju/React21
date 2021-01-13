@@ -13,6 +13,7 @@
     "webpack",
     "boilerplate"
   ],
+  "repository": "https://github.com/mafideju/React21/tree/master/tyler-1",
   "babel": {
     "presets": [
       "@babel/preset-env",

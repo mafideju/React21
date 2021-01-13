@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 
 class PlayerInput extends Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
-            username: ''
-        }
-        this.handleSubmit = this.handleSubmit.bind(this)
-        this.handleChange = this.handleChange.bind(this)
+            username: '',
+        };
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
     }
 
     handleSubmit(event) {
@@ -18,22 +18,19 @@ class PlayerInput extends Component {
 
     handleChange(event) {
       this.setState({
-        username: event.target.value
+        username: event.target.value,
       });
     }
 
     render() {
       return (
         <form onSubmit={this.handleSubmit}>
-          <label htmlFor='username'>
-            {this.props.label}
-          </label>
           <div className='row player-inputs'>
             <input
               type='text'
               id='username'
               className='input-light'
-              placeholder='github username'
+              placeholder={`GitHub do ${this.props.label}`}
               autoComplete='off'
               value={this.state.username}
               onChange={this.handleChange}
@@ -57,7 +54,7 @@ class PlayerInput extends Component {
   }
 
   PlayerInput.defaultProps = {
-    onSubmit: () => {console.log('PlayerInput.defaultProps')},
+    onSubmit: (val) => { console.log('PlayerInput.defaultProps', val) },
     label: 'Player Input'
   }
 
