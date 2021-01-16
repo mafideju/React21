@@ -22,3 +22,11 @@
 2020-12-27T18:37:09.527Z - info:   [230474] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
 2020-12-27T18:37:09.552Z - warn:   [230474] TFVC Couldn't find where the TF command lives on disk.
 2020-12-27T18:37:09.553Z - error:  [230474] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2021-01-14T18:39:20.169Z - info:   [1774036] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/grider-testing ***
+2021-01-14T18:39:20.169Z - info:   [1774036] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2021-01-14T18:39:20.174Z - warn:   [1774036] TFVC Couldn't find where the TF command lives on disk.
+2021-01-14T18:39:20.174Z - error:  [1774036] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2021-01-16T01:01:05.090Z - info:   [1953613] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/grider-testing ***
+2021-01-16T01:01:05.093Z - info:   [1953613] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2021-01-16T01:01:05.122Z - warn:   [1953613] TFVC Couldn't find where the TF command lives on disk.
+2021-01-16T01:01:05.123Z - error:  [1953613] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.

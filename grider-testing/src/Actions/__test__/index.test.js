@@ -3,10 +3,13 @@ import { SAVE_COMMENT } from "Actions/types";
 
 describe('SAVE COMMENT ACTION CREATOR', () => {
     test('CORRECT TYPE' , () => {
-        console.log('saveComment()', saveComment())
-        expect(saveComment().type).toEqual(SAVE_COMMENT);
+        const action = saveComment().type;
+
+        expect(action).toEqual(SAVE_COMMENT);
     });
     test('CORRECT PAYLOAD' , () => {
-        expect(saveComment('TESTE').payload).toEqual('TESTE');
+        const payload = saveComment('TESTE').payload;
+
+        expect(payload).toEqual('TESTE');
     });
 });

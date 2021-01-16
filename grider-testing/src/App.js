@@ -5,7 +5,7 @@ import CommentList from 'Components/CommentList/CommentList';
 
 import "App.css";
 
-function App() {
+const App = () => {
   return (
     <>
       <CommentBox title="Insira o comentário" />

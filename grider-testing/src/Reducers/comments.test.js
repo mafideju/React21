@@ -10,7 +10,7 @@ describe('COMENTS REDUCER TEST', () => {
 
         const newState = commentsReducer([], action);
 
-        console.log('newState', newState)
+        // console.log('newState', newState)
         expect(newState).toEqual(['Novo comentario']);
     });
 
