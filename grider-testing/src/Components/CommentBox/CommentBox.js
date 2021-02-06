@@ -35,7 +35,7 @@ class CommentBox extends Component {
                     </form>
                 </div>
                 <div>
-                    <button onClick={this.fetchComments}>Buscar</button>
+                    <button className="button-comments" onClick={this.fetchComments}>Buscar</button>
                 </div>
             </>
         );

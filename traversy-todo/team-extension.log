@@ -1,0 +1,8 @@
+2021-01-18T22:06:03.837Z - info:   [2423418] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/traversy-todo ***
+2021-01-18T22:06:03.838Z - info:   [2423418] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2021-01-18T22:06:03.844Z - warn:   [2423418] TFVC Couldn't find where the TF command lives on disk.
+2021-01-18T22:06:03.844Z - error:  [2423418] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2021-02-04T11:42:59.466Z - info:   [3967986] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/traversy-todo ***
+2021-02-04T11:42:59.466Z - info:   [3967986] AzureReposVSCode/1.161.1 (VSCode 1.52.1; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2021-02-04T11:42:59.709Z - warn:   [3967986] TFVC Couldn't find where the TF command lives on disk.
+2021-02-04T11:42:59.710Z - error:  [3967986] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
