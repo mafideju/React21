@@ -2,38 +2,10 @@
   "tasks": [
     {
       "userId": 1,
-      "id": 12,
-      "name": "ipsa repellendus fugit nisi",
-      "createdAt": "2021-02-04",
-      "done": false
-    },
-    {
-      "userId": 1,
-      "id": 13,
-      "name": "et doloremque nulla",
-      "createdAt": "2021-02-04",
-      "done": false
-    },
-    {
-      "userId": 1,
-      "id": 14,
-      "name": "repellendus sunt dolores architecto voluptatum",
-      "createdAt": "2021-02-04",
-      "done": false
-    },
-    {
-      "userId": 1,
-      "id": 15,
-      "name": "ab voluptatum amet voluptas",
-      "createdAt": "2021-02-04",
-      "done": false
-    },
-    {
-      "userId": 1,
       "id": 16,
       "name": "accusamus eos facilis sint et aut voluptatem",
       "createdAt": "2021-02-04",
-      "done": false
+      "done": true
     },
     {
       "userId": 1,

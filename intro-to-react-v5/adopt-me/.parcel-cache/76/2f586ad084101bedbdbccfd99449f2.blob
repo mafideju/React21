@@ -1,0 +1,50 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+var _jsxFileName = "/home/marciomafidejurodrigues/Projects/React/intro-to-react-v5/adopt-me/src/Pet.js";
+function Pet({animal, name, color}) {
+  return (
+    /*#__PURE__*/React.createElement("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 3,
+        columnNumber: 5
+      }
+    }, /*#__PURE__*/React.createElement("h1", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 4,
+        columnNumber: 7
+      }
+    }, name), /*#__PURE__*/React.createElement("h2", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 5,
+        columnNumber: 7
+      }
+    }, animal), /*#__PURE__*/React.createElement("h3", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6,
+        columnNumber: 7
+      }
+    }, color), /*#__PURE__*/React.createElement("div", {
+      style: {
+        borderBottom: "1px solid black"
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7,
+        columnNumber: 7
+      }
+    }))
+  );
+}
+exports.default = Pet;
+_c = Pet;
+var _c;
+$RefreshReg$(_c, "Pet");

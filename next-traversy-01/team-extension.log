@@ -1,0 +1,20 @@
+2021-02-07T12:37:43.685Z - info:   [171383] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/next-traversy-01 ***
+2021-02-07T12:37:43.686Z - info:   [171383] AzureReposVSCode/1.161.1 (VSCode 1.52.1; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2021-02-07T12:37:43.694Z - warn:   [171383] TFVC Couldn't find where the TF command lives on disk.
+2021-02-07T12:37:43.695Z - error:  [171383] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2021-02-23T16:09:53.686Z - info:   [615603] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/next-traversy-01 ***
+2021-02-23T16:09:53.688Z - info:   [615603] AzureReposVSCode/1.161.1 (VSCode 1.52.1; Linux 5.10.7-100.fc32.x86_64; Node 12.14.1)
+2021-02-23T16:09:53.804Z - warn:   [615603] TFVC Couldn't find where the TF command lives on disk.
+2021-02-23T16:09:53.806Z - error:  [615603] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2021-02-23T16:12:47.174Z - info:   [615603] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/next-traversy-01 ***
+2021-02-23T16:12:47.175Z - info:   [615603] AzureReposVSCode/1.161.1 (VSCode 1.52.1; Linux 5.10.7-100.fc32.x86_64; Node 12.14.1)
+2021-02-23T16:12:47.188Z - warn:   [615603] TFVC Couldn't find where the TF command lives on disk.
+2021-02-23T16:12:47.191Z - error:  [615603] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2021-02-23T16:12:47.275Z - info:   [615603] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/next-traversy-01 ***
+2021-02-23T16:12:47.275Z - info:   [615603] AzureReposVSCode/1.161.1 (VSCode 1.52.1; Linux 5.10.7-100.fc32.x86_64; Node 12.14.1)
+2021-02-23T16:12:47.281Z - warn:   [615603] TFVC Couldn't find where the TF command lives on disk.
+2021-02-23T16:12:47.281Z - error:  [615603] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2021-02-23T16:14:36.556Z - info:   [615603] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/next-traversy-01 ***
+2021-02-23T16:14:36.556Z - info:   [615603] AzureReposVSCode/1.161.1 (VSCode 1.52.1; Linux 5.10.7-100.fc32.x86_64; Node 12.14.1)
+2021-02-23T16:14:36.567Z - warn:   [615603] TFVC Couldn't find where the TF command lives on disk.
+2021-02-23T16:14:36.568Z - error:  [615603] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
