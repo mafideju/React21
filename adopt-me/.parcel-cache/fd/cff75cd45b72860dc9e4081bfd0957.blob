@@ -1,0 +1,104 @@
+var helpers = require("../../../../../.npm/_npx/b4a9aa12c0cf34a6/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _react = require("react");
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactDom = require("react-dom");
+  var _reactDomDefault = _parcelHelpers.interopDefault(_reactDom);
+  var _reachRouter = require("@reach/router");
+  var _SearchBar = require("./SearchBar");
+  var _SearchBarDefault = _parcelHelpers.interopDefault(_SearchBar);
+  var _Details = require("./Details");
+  var _DetailsDefault = _parcelHelpers.interopDefault(_Details);
+  var _jsxFileName = "/home/marciomafidejurodrigues/Projects/React/intro-to-react-v5/adopt-me/src/App.js";
+  // function App() {
+  // return React.createElement(
+  // "div",
+  // { className: "details" },
+  // React.createElement("h1", {}, "***"),
+  // React.createElement(Pet, {
+  // animal: "Dog",
+  // name: "Buzz",
+  // color: "Marrom",
+  // }),
+  // React.createElement(Pet, {
+  // animal: "Cat",
+  // name: "Catatau",
+  // color: "Preto/Branco",
+  // }),
+  // React.createElement(Pet, {
+  // animal: "Dog",
+  // name: "Pixote",
+  // color: "Preto/Branco/Marrom",
+  // }),
+  // );
+  // }
+  function App() {
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.StrictMode, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "details",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(Link, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 11
+        }
+      }, "AdoptMee")), /*#__PURE__*/_reactDefault.default.createElement(_reachRouter.Router, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_SearchBarDefault.default, {
+        path: "/",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 11
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_DetailsDefault.default, {
+        path: "/details/:id",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 11
+        }
+      }))))
+    );
+  }
+  _c = App;
+  _reactDomDefault.default.render(/*#__PURE__*/_reactDefault.default.createElement(App), document.getElementById("root"));
+  var _c;
+  $RefreshReg$(_c, "App");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

@@ -1,0 +1,119 @@
+"use strict";
+var helpers = require("../../../../../.npm/_npx/b4a9aa12c0cf34a6/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  function _typeof(obj) {
+    "@babel/helpers - typeof";
+    if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
+      _typeof = function _typeof(obj) {
+        return typeof obj;
+      };
+    } else {
+      _typeof = function _typeof(obj) {
+        return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+      };
+    }
+    return _typeof(obj);
+  }
+  var _react = _interopRequireWildcard(require("react"));
+  var _reactDom = _interopRequireDefault(require("react-dom"));
+  var _router = require("@reach/router");
+  var _SearchBar = _interopRequireDefault(require("./SearchBar"));
+  var _Details = _interopRequireDefault(require("./Details"));
+  var _ThemeContext = _interopRequireDefault(require("./ThemeContext"));
+  var _s = $RefreshSig$();
+  function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+      "default": obj
+    };
+  }
+  function _getRequireWildcardCache() {
+    if (typeof WeakMap !== "function") return null;
+    var cache = new WeakMap();
+    _getRequireWildcardCache = function _getRequireWildcardCache() {
+      return cache;
+    };
+    return cache;
+  }
+  function _interopRequireWildcard(obj) {
+    if (obj && obj.__esModule) {
+      return obj;
+    }
+    if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") {
+      return {
+        "default": obj
+      };
+    }
+    var cache = _getRequireWildcardCache();
+    if (cache && cache.has(obj)) {
+      return cache.get(obj);
+    }
+    var newObj = {};
+    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+    for (var key in obj) {
+      if (Object.prototype.hasOwnProperty.call(obj, key)) {
+        var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+        if (desc && (desc.get || desc.set)) {
+          Object.defineProperty(newObj, key, desc);
+        } else {
+          newObj[key] = obj[key];
+        }
+      }
+    }
+    newObj["default"] = obj;
+    if (cache) {
+      cache.set(obj, newObj);
+    }
+    return newObj;
+  }
+  // function App() {
+  // return React.createElement(
+  // "div",
+  // { className: "details" },
+  // React.createElement("h1", {}, "***"),
+  // React.createElement(Pet, {
+  // animal: "Dog",
+  // name: "Buzz",
+  // color: "Marrom",
+  // }),
+  // React.createElement(Pet, {
+  // animal: "Cat",
+  // name: "Catatau",
+  // color: "Preto/Branco",
+  // }),
+  // React.createElement(Pet, {
+  // animal: "Dog",
+  // name: "Pixote",
+  // color: "Preto/Branco/Marrom",
+  // }),
+  // );
+  // }
+  function App() {
+    _s();
+    var themeHook = (0, _react.useState)("blue");
+    return (
+      /*#__PURE__*/_react["default"].createElement(_react["default"].StrictMode, null, /*#__PURE__*/_react["default"].createElement(_ThemeContext["default"].Provider, {
+        value: themeHook
+      }, /*#__PURE__*/_react["default"].createElement("div", {
+        className: "details"
+      }, /*#__PURE__*/_react["default"].createElement("header", null, /*#__PURE__*/_react["default"].createElement(_router.Link, {
+        to: "/"
+      }, "AdoptMee")), /*#__PURE__*/_react["default"].createElement(_router.Router, null, /*#__PURE__*/_react["default"].createElement(_SearchBar["default"], {
+        path: "/"
+      }), /*#__PURE__*/_react["default"].createElement(_Details["default"], {
+        path: "/details/:id"
+      })))))
+    );
+  }
+  _s(App, "wndCv4AEDW2R5wBAU9xOLN22gw0=");
+  _c = App;
+  _reactDom["default"].render(/*#__PURE__*/_react["default"].createElement(App), document.getElementById("root"));
+  var _c;
+  $RefreshReg$(_c, "App");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

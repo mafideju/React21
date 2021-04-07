@@ -1,0 +1,53 @@
+"use strict";
+var helpers = require("../../../../../.npm/_npx/b4a9aa12c0cf34a6/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports["default"] = Pet;
+  var _react = _interopRequireDefault(require("react"));
+  var _router = require("@reach/router");
+  function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+      "default": obj
+    };
+  }
+  // export default function Pet({ animal, name, color }) {
+  // return React.createElement("div", { key: Math.random() }, [
+  // React.createElement("h1", {}, name),
+  // React.createElement("h2", {}, animal),
+  // React.createElement("h3", {}, color),
+  // React.createElement("div", { style: { borderBottom: "1px solid black" } }),
+  // ]);
+  // }
+  function Pet(_ref) {
+    var animal = _ref.animal, name = _ref.name, breed = _ref.breed, media = _ref.media, location = _ref.location, id = _ref.id;
+    var hero = "http://placecorgi.com/300/300";
+    if (media.length) {
+      hero = media[0].small;
+    }
+    return (
+      /*#__PURE__*/_react["default"].createElement(_router.Link, {
+        to: ("/details/").concat(id),
+        className: "pet"
+      }, /*#__PURE__*/_react["default"].createElement("div", {
+        className: "image-container"
+      }, /*#__PURE__*/_react["default"].createElement("img", {
+        src: hero,
+        alt: name
+      })), /*#__PURE__*/_react["default"].createElement("div", {
+        className: "info"
+      }, /*#__PURE__*/_react["default"].createElement("h1", null, animal), /*#__PURE__*/_react["default"].createElement("h2", null, ("").concat(animal, " - ").concat(breed, " - ").concat(location))))
+    );
+  }
+  _c = Pet;
+  var _c;
+  $RefreshReg$(_c, "Pet");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

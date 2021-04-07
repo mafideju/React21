@@ -1,5 +1,0 @@
-module.exports = require("./impl");
-if (undefined === "mock") {
-  module.exports = require("./mock");
-}
-module.exports.ANIMALS = require("./animals");

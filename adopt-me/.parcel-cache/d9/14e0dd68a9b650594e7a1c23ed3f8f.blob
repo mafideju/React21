@@ -1,0 +1,106 @@
+var helpers = require("../../../../../.npm/_npx/b4a9aa12c0cf34a6/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _frontendmastersPet = require("@frontendmasters/pet");
+  var _frontendmastersPetDefault = _parcelHelpers.interopDefault(_frontendmastersPet);
+  var _jsxFileName = "/home/marciomafidejurodrigues/Projects/React/intro-to-react-v5/adopt-me/src/Details.js";
+  class Details extends _react.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        loading: true,
+        name: "",
+        animal: "",
+        location: "",
+        description: "",
+        media: "",
+        breed: ""
+      };
+    }
+    componentDidMount() {
+      _frontendmastersPetDefault.default.animal(this.props.id).then(({animal}) => {
+        this.setState({
+          name: animal.name,
+          animal: animal.type,
+          location: `${animal.contact.address.city}, ${animal.contact.address.state}`,
+          description: animal.description,
+          media: animal.photos,
+          breed: animal.breeds.primary,
+          loading: false
+        });
+      });
+    }
+    render() {
+      if (this.state.loading) {
+        return (
+          /*#__PURE__*/_reactDefault.default.createElement("h1", {
+            __self: this,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 35,
+              columnNumber: 14
+            }
+          }, "Tá vindo aí...")
+        );
+      }
+      const {animal, breed, location, description, name} = this.state;
+      return (
+        /*#__PURE__*/_reactDefault.default.createElement("div", {
+          className: "details",
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 41,
+            columnNumber: 7
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 42,
+            columnNumber: 9
+          }
+        }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 43,
+            columnNumber: 11
+          }
+        }, name), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 44,
+            columnNumber: 11
+          }
+        }, `${animal} - ${breed} - ${location}`), /*#__PURE__*/_reactDefault.default.createElement("button", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 45,
+            columnNumber: 11
+          }
+        }, "Adota o ", name, "?"), /*#__PURE__*/_reactDefault.default.createElement("p", {
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 46,
+            columnNumber: 11
+          }
+        }, description)))
+      );
+    }
+  }
+  exports.default = Details;
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

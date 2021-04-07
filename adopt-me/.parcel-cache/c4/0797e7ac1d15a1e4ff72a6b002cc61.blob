@@ -1,0 +1,98 @@
+var helpers = require("../../../../../.npm/_npx/b4a9aa12c0cf34a6/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _frontendmastersPet = require("@frontendmasters/pet");
+  var _useDropdown = require("./useDropdown");
+  var _useDropdownDefault = _parcelHelpers.interopDefault(_useDropdown);
+  var _jsxFileName = "/home/marciomafidejurodrigues/Projects/React/intro-to-react-v5/adopt-me/src/SearchBar.js", _s = $RefreshSig$();
+  function SearchBar() {
+    _s();
+    // const location = "Seattle, WA";
+    const [location, setLocation] = _react.useState("Seattle, WA");
+    // const [animal, setAnimal] = useState("dog");
+    // const [breed, setBreed] = useState("");
+    const [breeds, setBreeds] = _react.useState([]);
+    const [animal, AnimalDropdown] = _useDropdownDefault.default("Animal", "dog", _frontendmastersPet.ANIMALS);
+    const [breed, BreedDropdown] = _useDropdownDefault.default("Breed", "", breeds);
+    const handleLocation = () => {
+      console.log(`location`, location);
+      console.log(`location`, animal);
+    };
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "search-params",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("form", {
+        onSubmit: handleLocation,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("label", {
+        htmlFor: "location",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 9
+        }
+      }, "Localização", /*#__PURE__*/_reactDefault.default.createElement("input", {
+        id: "location",
+        value: location,
+        placeholder: "Localização",
+        onChange: e => setLocation(e.target.value),
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24,
+          columnNumber: 11
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(AnimalDropdown, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(BreedDropdown, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("button", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 9
+        }
+      }, "Pesquisar")))
+    );
+  }
+  exports.default = SearchBar;
+  _s(SearchBar, "W6OaOoVGmx7LUr4TQQ1HHacWnFI=", false, function () {
+    return [_useDropdownDefault.default, _useDropdownDefault.default];
+  });
+  _c = SearchBar;
+  var _c;
+  $RefreshReg$(_c, "SearchBar");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

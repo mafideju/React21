@@ -1,0 +1,46 @@
+"use strict";
+var helpers = require("../../../../../.npm/_npx/b4a9aa12c0cf34a6/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports["default"] = Results;
+  var _react = _interopRequireDefault(require("react"));
+  var _Pet = _interopRequireDefault(require("./Pet"));
+  function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+      "default": obj
+    };
+  }
+  function Results(_ref) {
+    var pets = _ref.pets;
+    console.log("pets", pets);
+    return (
+      /*#__PURE__*/_react["default"].createElement("div", {
+        className: "search"
+      }, pets.length === 0 ? /*#__PURE__*/_react["default"].createElement("h1", null, "Cadê os Pets?") : pets.map(function (pet) {
+        return (
+          /*#__PURE__*/_react["default"].createElement(_Pet["default"], {
+            animal: pet.type,
+            key: pet.id,
+            id: pet.id,
+            name: pet.name,
+            breed: pet.breeds.primary,
+            media: pet.photos,
+            location: ("").concat(pet.contact.address.city, ", ").concat(pet.contact.address.state)
+          })
+        );
+      }))
+    );
+  }
+  _c = Results;
+  var _c;
+  $RefreshReg$(_c, "Results");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
