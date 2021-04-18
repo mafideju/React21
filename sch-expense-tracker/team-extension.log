@@ -1,0 +1,4 @@
+2021-04-17T21:18:57.315Z - info:   [14738] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/sch-expense-tracker ***
+2021-04-17T21:18:57.318Z - info:   [14738] AzureReposVSCode/1.161.1 (VSCode 1.55.0; Linux 5.11.11-100.fc32.x86_64; Node 12.18.3)
+2021-04-17T21:18:57.346Z - warn:   [14738] TFVC Couldn't find where the TF command lives on disk.
+2021-04-17T21:18:57.348Z - error:  [14738] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
