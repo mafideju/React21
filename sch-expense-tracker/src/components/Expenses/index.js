@@ -13,26 +13,37 @@ import ExpensesFilter from '../ExpensesFilter';
 //   }
 
 export default function Expenses({ expenses }) {
-  const [year, setYear] = useState('2021');
+  const [year, setYear] = useState('');
 
   const filterExpenses = (data) => {
     setYear(data);
-    console.log('Expenses >>>> filterExpenses =>', data);
   };
+
+  const filteredExpenses = expenses.filter(
+    (expenseItem) => expenseItem.date.getFullYear().toString() === year,
+  );
+
+  // if (filteredExpenses.lenght === 0) {
+  //   return <p>Não há despesas para exibir para o ano de ${year}.</p>;
+  // }
 
   return (
     <div>
       <div>
         <ExpensesFilter filterExpenses={filterExpenses} selectedYear={year} />
       </div>
-      {expenses.map((expense) => (
-        <ExpenseItem
-          key={expense.id}
-          expenseDate={expense.date}
-          expenseTitle={expense.title}
-          expenseAmount={expense.amount}
-        />
-      ))}
+      {filteredExpenses.length > 0 ? (
+        filteredExpenses.map((expense) => (
+          <ExpenseItem
+            key={expense.id}
+            expenseDate={expense.date}
+            expenseTitle={expense.title}
+            expenseAmount={expense.amount}
+          />
+        ))
+      ) : (
+        <p>Não há despesas para exibir para o ano de ${year}.</p>
+      )}
     </div>
   );
 }

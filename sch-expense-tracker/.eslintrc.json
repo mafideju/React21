@@ -29,6 +29,7 @@
         "react/jsx-curly-newline": 0,
         "object-curly-newline": 0,
         "no-unused-vars": 1,
-        "jsx-a11y/label-has-associated-control": 1
+        "jsx-a11y/label-has-associated-control": 1,
+        "operator-linebreak": 1
     }
 }

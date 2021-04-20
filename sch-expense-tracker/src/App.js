@@ -36,7 +36,7 @@ function App() {
   const onSubmitAddExpenseHandler = (expenseFormData) => {
     const newExpense = {
       ...expenseFormData,
-      id: Math.random() * 100,
+      id: Math.random() * 1000,
     };
     setExpenses((prevState) => [newExpense, ...prevState]);
   };
