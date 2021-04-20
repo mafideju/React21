@@ -2,3 +2,15 @@
 2021-04-17T21:18:57.318Z - info:   [14738] AzureReposVSCode/1.161.1 (VSCode 1.55.0; Linux 5.11.11-100.fc32.x86_64; Node 12.18.3)
 2021-04-17T21:18:57.346Z - warn:   [14738] TFVC Couldn't find where the TF command lives on disk.
 2021-04-17T21:18:57.348Z - error:  [14738] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2021-04-18T22:00:31.738Z - info:   [68856] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/sch-expense-tracker ***
+2021-04-18T22:00:31.738Z - info:   [68856] AzureReposVSCode/1.161.1 (VSCode 1.55.0; Linux 5.11.11-100.fc32.x86_64; Node 12.18.3)
+2021-04-18T22:00:31.749Z - warn:   [68856] TFVC Couldn't find where the TF command lives on disk.
+2021-04-18T22:00:31.750Z - error:  [68856] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2021-04-19T14:36:59.836Z - info:   [145031] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/sch-expense-tracker ***
+2021-04-19T14:36:59.837Z - info:   [145031] AzureReposVSCode/1.161.1 (VSCode 1.55.0; Linux 5.11.11-100.fc32.x86_64; Node 12.18.3)
+2021-04-19T14:36:59.884Z - warn:   [145031] TFVC Couldn't find where the TF command lives on disk.
+2021-04-19T14:36:59.885Z - error:  [145031] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2021-04-19T23:43:45.284Z - info:   [173681] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/sch-expense-tracker ***
+2021-04-19T23:43:45.286Z - info:   [173681] AzureReposVSCode/1.161.1 (VSCode 1.55.0; Linux 5.11.11-100.fc32.x86_64; Node 12.18.3)
+2021-04-19T23:43:45.558Z - warn:   [173681] TFVC Couldn't find where the TF command lives on disk.
+2021-04-19T23:43:45.559Z - error:  [173681] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.

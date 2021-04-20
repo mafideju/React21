@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
 
-export default function ExpenseForm({ onSubmitFormHandler }) {
+export default function ExpenseForm({ onSubmitAddExpenseHandler }) {
   const [form, setForm] = useState({
     title: '',
     amount: '',
     date: '',
   });
 
-  const sendExpense = (e) => {
+  const submitExpenseHandler = (e) => {
     e.preventDefault();
-    onSubmitFormHandler(form);
+    onSubmitAddExpenseHandler({
+      title: form.title,
+      amount: form.amount,
+      date: new Date(form.date),
+    });
     setForm({ title: '', amount: '', date: '' });
   };
 
@@ -18,7 +22,7 @@ export default function ExpenseForm({ onSubmitFormHandler }) {
   };
 
   return (
-    <form onSubmit={sendExpense}>
+    <form onSubmit={submitExpenseHandler}>
       <div>
         <div>
           <label htmlFor="title">
