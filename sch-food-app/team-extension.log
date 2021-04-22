@@ -1,0 +1,4 @@
+2021-04-22T19:56:55.737Z - info:   [55134] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/sch-food-app ***
+2021-04-22T19:56:55.738Z - info:   [55134] AzureReposVSCode/1.161.1 (VSCode 1.55.2; Linux 5.11.14-100.fc32.x86_64; Node 12.18.3)
+2021-04-22T19:56:55.744Z - warn:   [55134] TFVC Couldn't find where the TF command lives on disk.
+2021-04-22T19:56:55.744Z - error:  [55134] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
