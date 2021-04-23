@@ -1,0 +1,4 @@
+2021-04-20T22:44:13.833Z - info:   [30233] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/sch-proj-01 ***
+2021-04-20T22:44:13.834Z - info:   [30233] AzureReposVSCode/1.161.1 (VSCode 1.55.2; Linux 5.11.14-100.fc32.x86_64; Node 12.18.3)
+2021-04-20T22:44:13.840Z - warn:   [30233] TFVC Couldn't find where the TF command lives on disk.
+2021-04-20T22:44:13.841Z - error:  [30233] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.

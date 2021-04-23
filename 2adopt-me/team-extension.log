@@ -1,4 +1,0 @@
-2021-04-09T18:45:38.018Z - info:   [103506] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/complete-intro-to-react-v5 ***
-2021-04-09T18:45:38.018Z - info:   [103506] AzureReposVSCode/1.161.1 (VSCode 1.55.0; Linux 5.11.11-100.fc32.x86_64; Node 12.18.3)
-2021-04-09T18:45:38.024Z - warn:   [103506] TFVC Couldn't find where the TF command lives on disk.
-2021-04-09T18:45:38.025Z - error:  [103506] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
