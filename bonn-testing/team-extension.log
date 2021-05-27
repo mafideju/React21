@@ -22,3 +22,7 @@
 2021-05-13T13:44:49.316Z - info:   [20830] AzureReposVSCode/1.161.1 (VSCode 1.55.2; Linux 5.11.14-100.fc32.x86_64; Node 12.18.3)
 2021-05-13T13:44:49.340Z - warn:   [20830] TFVC Couldn't find where the TF command lives on disk.
 2021-05-13T13:44:49.343Z - error:  [20830] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2021-05-27T13:16:21.271Z - info:   [20830] *** FOLDER: /home/marciomafidejurodrigues/Projects/React/bonn-testing ***
+2021-05-27T13:16:21.275Z - info:   [20830] AzureReposVSCode/1.161.1 (VSCode 1.55.2; Linux 5.11.14-100.fc32.x86_64; Node 12.18.3)
+2021-05-27T13:16:21.402Z - warn:   [20830] TFVC Couldn't find where the TF command lives on disk.
+2021-05-27T13:16:21.404Z - error:  [20830] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.

@@ -4,7 +4,12 @@
         "es2021": true
     },
     "extends": [
+        "react-app",
+        "react-app/jest",
         "plugin:react/recommended",
+        "plugin:testing-library/recommended",
+        "plugin:testing-library/react",
+        "plugin:jest-dom/recommended",
         "google"
     ],
     "parser": "babel-eslint",
@@ -16,6 +21,8 @@
         "sourceType": "module"
     },
     "plugins": [
+        "testing-library",
+        "jest-dom",
         "react",
 	    "prettier"
     ],

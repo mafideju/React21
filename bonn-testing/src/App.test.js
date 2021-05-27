@@ -15,12 +15,12 @@ describe('BUTTON COLOR', () => {
     const button = screen.getByRole('button', { name: /muda/i });
     fireEvent.click(button);
     expect(button).toHaveStyle({ backgroundColor: 'blue' });
-    expect(button.textContent).toBe('muda pra azul');
+    expect(button).toHaveTextContent('muda pra azul');
   });
 });
 
 describe('CHECKBOX', () => {
-  test('disable button when clicked', () => {
+  test('disable button and change style when clicked', () => {
     render(<App />);
     const button = screen.getByRole('button', { name: /muda/i });
     expect(button).toBeEnabled();
